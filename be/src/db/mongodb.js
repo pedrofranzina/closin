@@ -1,3 +1,4 @@
+const { MongoClient } = require('mongodb')
 
 const url = process.env.MONGODB_URL
 const dbName = 'closein'
